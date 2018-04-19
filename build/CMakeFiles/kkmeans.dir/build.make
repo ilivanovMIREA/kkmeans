@@ -92,17 +92,7 @@ kkmeans: CMakeFiles/kkmeans.dir/kkmeans/main.cpp.o
 kkmeans: CMakeFiles/kkmeans.dir/build.make
 kkmeans: /usr/local/lib/libdlib.a
 kkmeans: /usr/lib/x86_64-linux-gnu/libnsl.so
-kkmeans: /usr/lib/x86_64-linux-gnu/libSM.so
-kkmeans: /usr/lib/x86_64-linux-gnu/libICE.so
 kkmeans: /usr/lib/x86_64-linux-gnu/libX11.so
-kkmeans: /usr/lib/x86_64-linux-gnu/libXext.so
-kkmeans: /usr/lib/x86_64-linux-gnu/libgif.so
-kkmeans: /usr/lib/x86_64-linux-gnu/libpng.so
-kkmeans: /usr/lib/x86_64-linux-gnu/libz.so
-kkmeans: /usr/lib/x86_64-linux-gnu/libjpeg.so
-kkmeans: /usr/lib/libblas.so
-kkmeans: /usr/lib/liblapack.so
-kkmeans: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 kkmeans: CMakeFiles/kkmeans.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ilivanov/kkmeans/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable kkmeans"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kkmeans.dir/link.txt --verbose=$(VERBOSE)

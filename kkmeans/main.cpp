@@ -20,7 +20,7 @@ typedef radial_basis_kernel<sample_type> kernel_type;
 
 int main()
 {
-
+    dlib::rand rnd;
     std::vector<double> labels;
     std::vector<sample_type> samples;
     std::vector<sample_type> initial_centers;
@@ -51,7 +51,8 @@ int main()
 
     // load the function back in from disk and store it in df3.  
     deserialize("df.dat") >> df;
-   
+    int a = 25;
+    int b = 30;
     std::vector<perspective_window::overlay_dot> points;
     for(std::string line; std::getline(std::cin, line);)
     {
@@ -63,7 +64,8 @@ int main()
         start = stop + 1;
         m(1) = std::stod (line.substr(start));
             
-
+        m(0) = rnd.get_random_double()*(b-a)+a;
+        m(1) = rnd.get_random_double()*(b-a)+a;
         dlib::vector<double> val(m(0),m(1),0);
         rgb_pixel color = colormap_jet(7,0,20);
 
