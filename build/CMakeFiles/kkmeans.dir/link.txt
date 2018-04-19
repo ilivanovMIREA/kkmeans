@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/kkmeans.dir/kkmeans/main.cpp.o  -o kkmeans -rdynamic /usr/local/lib/libdlib.a -lpthread -lnsl -lX11 

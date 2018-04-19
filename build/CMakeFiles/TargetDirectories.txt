@@ -1,0 +1,3 @@
+/home/ilivanov/kkmeans/build/CMakeFiles/edit_cache.dir
+/home/ilivanov/kkmeans/build/CMakeFiles/rebuild_cache.dir
+/home/ilivanov/kkmeans/build/CMakeFiles/kkmeans.dir
