@@ -1,10 +1,10 @@
 #include <dlib/gui_widgets.h>
 #include <dlib/image_transforms.h>
 #include <cmath>
+
 #include <iostream>
-#include <string>
 #include <vector>
-#include <dlib/svm_threaded.h>
+
 #include <dlib/clustering.h>
 #include <dlib/rand.h>
 
@@ -70,6 +70,6 @@ int main(int argc, char* argv[])
     {
         cout << "Not arguments" << endl;
     }
-    
+
     return 0;    
 }
