@@ -70,5 +70,6 @@ int main(int argc, char* argv[])
     {
         cout << "Not arguments" << endl;
     }
+    
     return 0;    
 }
