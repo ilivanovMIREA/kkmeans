@@ -16,7 +16,7 @@ typedef radial_basis_kernel<sample_type> kernel_type;
 
 int main(int argc, char* argv[])
 {
-    if (argc > 1)// если передаем аргументы, то argc будет больше 1(в зависимости от кол-ва аргументов)
+    if (argc > 1)
     {
         //количество кластеров
         int n = (int)(*argv[1]) - 48;
