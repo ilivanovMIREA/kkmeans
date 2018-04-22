@@ -18,6 +18,7 @@ int main(int argc, char* argv[])
 {
     if (argc > 1)
     {
+
         //количество кластеров
         int n = (int)(*argv[1]) - 48;
         
