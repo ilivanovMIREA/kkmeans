@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.2)
 
-project(kkmeans)
+#project(kkmeans)
+project(kkmeans VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 
 find_package(dlib REQUIRED)
 
