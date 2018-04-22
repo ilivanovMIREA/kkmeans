@@ -1,7 +1,7 @@
-#include <dlib/gui_widgets.h>
-#include <dlib/image_transforms.h>
-#include <cmath>
+//#include <dlib/gui_widgets.h>
+//#include <dlib/image_transforms.h>
 
+#include <cmath>
 #include <iostream>
 #include <vector>
 
@@ -31,7 +31,7 @@ int main(int argc, char* argv[])
         kkmeans<kernel_type> test(kc);
 
         //для визуализации
-        std::vector<perspective_window::overlay_dot> points;
+        //std::vector<perspective_window::overlay_dot> points;
         
         for(std::string line; std::getline(std::cin, line);)
         {
@@ -43,10 +43,10 @@ int main(int argc, char* argv[])
             start = stop + 1;
             m(1) = std::stod (line.substr(start));
             
-            dlib::vector<double> val(m(0),m(1),0);
-            rgb_pixel color = colormap_jet(7,0,20);
+            //dlib::vector<double> val(m(0),m(1),0);
+            //rgb_pixel color = colormap_jet(7,0,20);
 
-            points.push_back(perspective_window::overlay_dot(val, color));        
+            //points.push_back(perspective_window::overlay_dot(val, color));        
             samples.push_back(std::move(m));
         }
 
@@ -62,10 +62,10 @@ int main(int argc, char* argv[])
         }
 
         // визуализация 
-        perspective_window win;
+        /*perspective_window win;
         win.set_title("perspective_window 3D point cloud");
         win.add_overlay(points);
-        win.wait_until_closed();
+        win.wait_until_closed();*/
     } 
     else
     {
